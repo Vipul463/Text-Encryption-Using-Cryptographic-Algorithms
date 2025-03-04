@@ -21,3 +21,4 @@ A simple web application that allows users to securely **encrypt and decrypt** t
 ```sh
 git clone https://github.com/yourusername/encryption-app.git
 cd encryption-app
+nodemon ./bin/www
