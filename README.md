@@ -16,11 +16,6 @@ A simple web application that allows users to securely **encrypt and decrypt** t
 
 ---
 
-## 🚀 **Live Demo**  
-🔗 [Live App](https://your-deployment-link.com) (if hosted on Vercel, Render, or Heroku)  
-
----
-
 ## 📦 **Installation & Setup**  
 ### **1️⃣ Clone the repository**
 ```sh
