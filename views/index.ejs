@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Encryption & Decryption</title>
+    <link rel="stylesheet" href="/css/styles.css"> <!-- Link to your new CSS file -->
+</head>
+<body>
+<h1>Text Encryption & Decryption</h1>
+
+<div class="form-container">
+    <!-- Encrypt Section -->
+    <h2>Encrypt Text</h2>
+    <form id="encryptForm">
+        <textarea id="textToEncrypt" placeholder="Enter text to encrypt" required></textarea><br>
+        <button type="submit">Encrypt</button>
+    </form>
+
+    <h3>Encrypted Text:</h3>
+    <label id="encryptedTextLabel">No text encrypted yet.</label>
+
+    <br><br>
+
+    <!-- Decrypt Section -->
+    <h2>Decrypt Text</h2>
+    <form id="decryptForm">
+        <textarea id="textToDecrypt" placeholder="Enter encrypted text to decrypt" required></textarea><br>
+        <button type="submit">Decrypt</button>
+    </form>
+
+    <h3>Decrypted Text:</h3>
+    <label id="decryptedTextLabel">No text decrypted yet.</label>
+</div>
+
+<script src="/js/scripts.js"></script>
+</body>
+</html>
